@@ -1,0 +1,16 @@
+.primaryBtn {
+  @apply bg-primary;
+  color: white;
+  &:hover {
+    @apply bg-primary/75;
+  }
+}
+
+.secondaryBtn {
+  @apply text-gray-900 border border-gray-200 dark:text-white;
+  &:hover {
+    @apply bg-primary text-white;
+  }
+}
+
+
